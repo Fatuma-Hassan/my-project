@@ -1,0 +1,16 @@
+label{
+    display:block
+}
+body{
+    background-color: bisque;
+}
+h1{
+    color: blue;
+}
+.credit{
+    background-color: aqua;
+    width: 400px;
+    margin:auto;
+    padding: 25px;
+    border=radius: 10px;
+}
