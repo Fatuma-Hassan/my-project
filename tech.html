@@ -11,7 +11,7 @@
             <label>Full Name:</label>
             <input type="text" name="Full Name" id="" placeholder="enter your full name" required>
             <label for="">Email Address:</label>
-            <input type="email" name="Email Address" placeholder="enter your email">
+            <input type="email" name="Email Address" placeholder="enter your email" required>
 
             <label for="">Age Group:</label>
             <select name="Age Group" id="">
@@ -96,15 +96,20 @@
                 <option value="">Very Dissatisfied</option>
             </select>
             <label for="">2.Is internet access affordable in your area?</label>
+            <div class="radio">
             <input type="radio" name="2.Is internet access affordable in your area?" value="Yes">
             Yes
             <input type="radio" name="2.Is internet access affordable in your area?" value="No">
             No
+            </div>
             <label for="">3.Have you experienced online security challenges?</label>
+            <div class="radio">
+
             <input type="radio" name="3.Have you experienced online security challenges?" value="Yes">
             Yes
             <input type="radio" name="3.Have you experienced online security challenges?" value="No">
             No
+            </div>
             <label for="">4.What digital service do you find most useful?</label>
             <textarea name="" id="" placeholder="enter digital skills you find most"></textarea>
             <label for="">5.What challenges do you face when using digital services?</label>
@@ -115,19 +120,16 @@
             <label for="">2.What digital services would you like to see introduced?</label>
             <textarea name="" id="" placeholder="enter services you like"></textarea>
             <label for="">3.Additional comments</label>
-            <textarea name="" id="" placeholder="add comments"></textarea>
+            <textarea name="" id="" placeholder="add comments" required></textarea>
             <h2>F.Consent</h2>
             <label for="">I agree that my responses may be used for educational research</label>
+            <div class="checkbox">
             <input type="checkbox" required name="I agree that my responses may be used for educational research" id="">
+            </div>
             <button type="Submit Feedback">Submit Feedback</button>
-            <button>Reset Form</button>
+            <button id="Reset">Reset Form</button>
 
-
-
-
-
-                
-
+</div>
         </form>
     </body>
 </html>
